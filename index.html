@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 
-<body>
+<body class="page">
   <header class="header">
     <img class="header__image" src="./eisenhower-matrix.jpg">
     <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main class="main">
     <section class="add-item">
-      <label class="add-item__label" for="new-task">Add Item</label>
+      <label class="add-item__label title" for="new-task">Add Item</label>
       <div class="add-item__input-wrapper">
         <input class="add-item__input" id="new-task" type="text">
         <button class="btn add-item__btn">Add</button>
@@ -29,7 +29,7 @@
           <input class="list__input" type="text">
           <button class="btn btn_edit">Edit</button>
           <button class="btn btn_delete">
-            <img class="" src="./remove.svg">
+            <img class="list__img" src="./remove.svg">
           </button>
         </li>
         <li class="edit-mode list__item">
@@ -38,7 +38,7 @@
           <input class="list__input" type="text" value="go shopping">
           <button class="btn btn_edit">Save</button>
           <button class="btn btn_delete">
-            <img src="./remove.svg">
+            <img class="list__img" src="./remove.svg">
           </button>
         </li>
       </ul>
@@ -49,10 +49,10 @@
         <li class="list__item">
           <input class="list__checkbox" type="checkbox" checked>
           <label class="list__label">See the Doctor</label>
-          <input type="text" class="list__input">
+          <input class="list__input" type="text">
           <button class="btn btn_edit">Edit</button>
           <button class="btn btn_delete">
-            <img src="./remove.svg">
+            <img class="list__img" src="./remove.svg">
           </button>
         </li>
       </ul>
